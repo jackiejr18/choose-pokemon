@@ -13,3 +13,14 @@
 	display: flex;
 	position: relative;
 }
+
+.base {
+	width: 60vmin;
+	height: 30vmin;
+	color: #A1A1A1;
+	background: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
