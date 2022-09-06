@@ -76,3 +76,18 @@ h1 {
 	font-size: 12vmin;
 	text-align: left;
 }
+
+.fwd {
+	position: relative;
+	left: 35vmin;
+	top: 1vmin;
+	background: transparent;
+	height: 1vmin;
+	width: 1vmin;
+	color: black;
+	box-shadow: 
+		1vmin 0, 2vmin 0, 3vmin 0, 4vmin 0, 5vmin 0, 6vmin 0,
+		2vmin 1vmin, 3vmin 1vmin, 4vmin 1vmin, 5vmin 1vmin,
+		3vmin 2vmin, 4vmin 2vmin;
+	animation: int 1s infinite;
+}
