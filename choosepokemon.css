@@ -41,3 +41,19 @@
 	height: 22vmin;
 	box-shadow: 0 -2vmin black;
 }
+
+#five {
+	background: #999999;
+	width: 55vmin;
+	height: 18vmin;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	box-shadow: 
+		0 -2vmin #999999,
+		-2vmin 0 white,
+		2vmin 0 white,
+		-2vmin -4vmin white,
+		2min -4vmin white;
+}
