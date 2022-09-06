@@ -70,3 +70,9 @@
 		-2.5vmin 2.5vmin white, -2.5vmin -2.5vmin white,
 		-1.5vmin -1.5vmin, 1.5vmin 1.5vmin;
 }
+
+h1 {
+	font-family: VT323;
+	font-size: 12vmin;
+	text-align: left;
+}
