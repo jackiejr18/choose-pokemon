@@ -112,3 +112,21 @@ h1 {
 		3vmin 10vmin black, 4vmin 10vmin black, 5vmin 10vmin, 6vmin 10vmin, 7vmin 10vmin, 8vmin 10vmin, 9vmin 10vmin black, 10vmin 10vmin black,
 		5vmin 11vmin black, 6vmin 11vmin black, 7vmin 11vmin black, 8vmin 11vmin black;
 }
+
+.pokeball::after {
+	content: '';
+	position: absolute;
+	width: 1250%;
+	height: 1250%;
+}
+
+.pokeball:hover {
+	animation-name: shake;
+	animation-duration: 2s;
+}
+
+#first {
+	top: -18vmin;
+	left: -28vmin;
+	transform: scale(1.3,1.3);
+}
